@@ -4,7 +4,7 @@ cask "dynamicbar" do
 
   url "https://github.com/KAG1O/DynamicBar/releases/download/v#{version}/DynamicBar.dmg"
   name "DynamicBar"
-  desc "Liquid Glass island for the Mac notch"
+  desc "Liquid Glass island for the notch"
   homepage "https://kag1o.github.io/DynamicBar/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "dynamicbar" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "DynamicBar.app"
 
