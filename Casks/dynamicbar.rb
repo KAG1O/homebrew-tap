@@ -1,6 +1,6 @@
 cask "dynamicbar" do
   version "1.0"
-  sha256 "4a65726cd40b679f54d7fc9b596dd75442c79ef970c8528a5bf0ee41952acdab"
+  sha256 "eadabe9ab0bf87dbe05de37bded09ddf48d56c88dcff63c5236baac5eeba8aa9"
 
   url "https://github.com/KAG1O/DynamicBar/releases/download/v#{version}/DynamicBar.dmg"
   name "DynamicBar"
